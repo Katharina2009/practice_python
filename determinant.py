@@ -3,6 +3,7 @@ The first function calculates the determinant of a 1x1 matrix,
 a 2x2 matrix, and adds together the minors of a nxn matrix if n > 2.
 The second function calculates the determinant of the minors."""
 
+#Practicing calling a function in a function, and calling itself.
 def determinant(m):
     if len(m) == 1:
         return m[0][0]
